@@ -1,0 +1,78 @@
+body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+header {
+    background-color: black;
+    background-image: radial-gradient( rgba(255, 255, 255, 1), rgba(0, 0, 0, .1)), url("https://images.unsplash.com/photo-1561450026-cafb58c1e6be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+h1 {
+    font-size: 90px; 
+    text-align: center;
+    color: #f73220;
+    text-shadow: 5px 5px 5px black;
+}
+
+#startGame {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 35px;
+    width: 75px;
+    border-radius: 20px;
+    background-color: #f73220;
+    color: white
+}
+
+#id {
+    background-color: #856f9e;
+}
+
+.hitButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 35px;
+    width: 75px;
+    border-radius: 20px;
+    background-color: #f73220;
+    color: white
+}
+
+.card {
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 405px;
+}
+
+.card-body {
+    background-color: #bad3e6;
+}
+
+.card-text {
+    text-align: center;
+}
+
+#totalScore {
+    text-align: center;
+    margin-top: 15px;
+    border: 3px gray;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.finalMessage {
+    text-align: center;
+    color: darkred;
+    font-weight: bolder;
+    font-size: 60px;
+}
